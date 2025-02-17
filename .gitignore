@@ -1,2 +1,16 @@
-# Ignore Lambda deployment package
+
+# Ignore deployment package and logs
 lambda_function.zip
+
+# Ignore Python-related files and directories
+*.pyc
+__pycache__/
+venv/
+.env/
+
+# Ignore Serverless framework generated files
+.serverless/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
